@@ -3,6 +3,7 @@
   * @var \App\View\AppView $this
   */
 ?>
+<?= $this->Html->link(__('Agegar persona'), ['controller'=>'People', 'action' => 'add'],['class'=>'btn btn-default btn-sm']) ?>
 <div class="table-responsive">
     <table class="table table-bordered">
         <thead>
