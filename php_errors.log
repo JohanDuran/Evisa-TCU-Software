@@ -46,3 +46,50 @@
 [14-Nov-2017 06:18:41 UTC] PHP  16. Cake\View\View->renderLayout() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:602
 [14-Nov-2017 06:18:41 UTC] PHP  17. Cake\View\View->_render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:644
 [14-Nov-2017 06:18:41 UTC] PHP  18. Cake\View\View->_evaluate() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:973
+[07-Dec-2017 03:45:38 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/src/Template/People/index.ctp on line 37
+[07-Dec-2017 03:45:38 UTC] PHP Stack trace:
+[07-Dec-2017 03:45:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/webroot/index.php:0
+[07-Dec-2017 03:45:38 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/webroot/index.php:37
+[07-Dec-2017 03:45:38 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Server.php:90
+[07-Dec-2017 03:45:38 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[07-Dec-2017 03:45:38 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:45:38 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[07-Dec-2017 03:45:38 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:45:38 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[07-Dec-2017 03:45:38 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:45:38 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[07-Dec-2017 03:45:38 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:45:38 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[07-Dec-2017 03:45:38 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[07-Dec-2017 03:45:38 UTC] PHP  14. Cake\Controller\Controller->render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:127
+[07-Dec-2017 03:45:38 UTC] PHP  15. Cake\View\View->render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[07-Dec-2017 03:45:38 UTC] PHP  16. Cake\View\View->_render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:597
+[07-Dec-2017 03:45:38 UTC] PHP  17. Cake\View\View->_evaluate() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:973
+[07-Dec-2017 03:54:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/src/Template/Element/NavBar/navBar.ctp on line 13
+[07-Dec-2017 03:54:28 UTC] PHP Stack trace:
+[07-Dec-2017 03:54:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/webroot/index.php:0
+[07-Dec-2017 03:54:28 UTC] PHP   2. Cake\Http\Server->run() /home/ubuntu/workspace/webroot/index.php:37
+[07-Dec-2017 03:54:28 UTC] PHP   3. Cake\Http\Runner->run() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Server.php:90
+[07-Dec-2017 03:54:28 UTC] PHP   4. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:51
+[07-Dec-2017 03:54:28 UTC] PHP   5. Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:54:28 UTC] PHP   6. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:81
+[07-Dec-2017 03:54:28 UTC] PHP   7. Cake\Routing\Middleware\AssetMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:54:28 UTC] PHP   8. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:88
+[07-Dec-2017 03:54:28 UTC] PHP   9. Cake\Routing\Middleware\RoutingMiddleware->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:54:28 UTC] PHP  10. Cake\Http\Runner->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:62
+[07-Dec-2017 03:54:28 UTC] PHP  11. Cake\Http\BaseApplication->__invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/Runner.php:65
+[07-Dec-2017 03:54:28 UTC] PHP  12. Cake\Http\ActionDispatcher->dispatch() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/BaseApplication.php:83
+[07-Dec-2017 03:54:28 UTC] PHP  13. Cake\Http\ActionDispatcher->_invoke() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:95
+[07-Dec-2017 03:54:28 UTC] PHP  14. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php:121
+[07-Dec-2017 03:54:28 UTC] PHP  15. call_user_func_array:{/home/ubuntu/workspace/vendor/cakephp/cakephp/src/Controller/Controller.php:435}() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[07-Dec-2017 03:54:28 UTC] PHP  16. App\Controller\PagesController->display() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Controller/Controller.php:435
+[07-Dec-2017 03:54:28 UTC] PHP  17. Cake\Controller\Controller->render() /home/ubuntu/workspace/src/Controller/PagesController.php:62
+[07-Dec-2017 03:54:28 UTC] PHP  18. Cake\View\View->render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/Controller/Controller.php:617
+[07-Dec-2017 03:54:28 UTC] PHP  19. Cake\View\View->renderLayout() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:602
+[07-Dec-2017 03:54:28 UTC] PHP  20. Cake\View\View->_render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:644
+[07-Dec-2017 03:54:28 UTC] PHP  21. Cake\View\View->_evaluate() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:973
+[07-Dec-2017 03:54:28 UTC] PHP  22. include() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:1014
+[07-Dec-2017 03:54:28 UTC] PHP  23. Cake\View\View->element() /home/ubuntu/workspace/src/Template/Layout/default.ctp:36
+[07-Dec-2017 03:54:28 UTC] PHP  24. Cake\View\View->_renderElement() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:501
+[07-Dec-2017 03:54:28 UTC] PHP  25. Cake\View\View->_render() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:1363
+[07-Dec-2017 03:54:28 UTC] PHP  26. Cake\View\View->_evaluate() /home/ubuntu/workspace/vendor/cakephp/cakephp/src/View/View.php:973
