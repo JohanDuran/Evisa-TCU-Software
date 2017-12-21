@@ -8,13 +8,13 @@
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th><?= $this->Paginator->sort('Indentificación') ?></th>
+                <th><?= $this->Paginator->sort('Identificación') ?></th>
                 <th><?= $this->Paginator->sort('Apellido') ?></th>
                 <th><?= $this->Paginator->sort('Nombre') ?></th>
                 <th><?= $this->Paginator->sort('Celular') ?></th>
                 <th><?= $this->Paginator->sort('Teléfono') ?></th>
                 <th><?= $this->Paginator->sort('Correo') ?></th>
-                <th class="actions"><?= __('Actions') ?></th>
+                <th class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
